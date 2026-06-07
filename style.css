@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+
+#box{
+    height: 70px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 116, 3);
+    object-fit: cover;
+    
+}
+#option{
+    height:240px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    
+}
+#rock{
+    height:165px;
+    width:165px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-image: url("rock.jpg");
+    background-size:cover;
+
+}
+#paper{
+    height:165px;
+    width:165px;
+    margin-top: 30px;
+    border-radius: 50%;
+     background-image: url("paper.jpg");
+    background-size: cover;
+}
+#scissor{
+    height:165px;
+    width:165px;
+    margin-top: 30px;
+    border-radius: 50%;
+     background-image: url("scissors.jpg");
+    background-size: cover;
+}
+.a:hover{
+    opacity: 0.5;
+    cursor:pointer;
+  
+   
+}
+#score{
+    height:150px;
+   
+    display:flex;
+    /* justify-content: centre; */
+    align-items: center;
+    gap:20px;
+    
+}
+#person{
+    height:130px;
+    width:160px;
+   
+    margin-left: 580px;
+
+    
+   
+}
+#comp{
+    height:130px;
+    width:160px;
+   
+}
+p{
+    padding-left: 58px;
+    padding-top: 20px;
+}
+#zero{
+    font-size: 40px;
+    padding-left: 62px;
+}
+#z{
+    font-size: 40px;
+    padding-left: 65px;
+}
+#move{
+    height: 80px;
+    width:450px;
+    margin-left: 560px;
+
+    background-color: rgb(13, 172, 13);
+    display:flex;
+    justify-content: center;
+    border-radius: 1rem;
+    /* align-items: center; */
+   
+}
+#move p{
+    font-size: 30px;
+    color:white;
+    padding-right: 33px;
+}
+@media (max-width: 768px) {
+
+    #option {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    #rock,
+    #paper,
+    #scissor {
+        width: 120px;
+        height: 120px;
+        margin-top: 0;
+    }
+
+    #score {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #person {
+        margin-left: 0;
+    }
+
+    #move {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #move p {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
