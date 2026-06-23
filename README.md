@@ -56,4 +56,4 @@ Purnendu Kumar
 
 This project was built for learning and practice purposes as part of my web development journey.
 Live Demo:
-https://relaxed-dasik-544cb5.netlify.app/
+https://curious-phoenix-d19d3b.netlify.app/
